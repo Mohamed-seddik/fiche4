@@ -8,9 +8,9 @@ public class PointA extends Point
         super(x,y);
     }
 
-    public void affichercoord()
+    public String affichercoord()
     {
-        System.out.println("("+getX()+","+getY()+")");
+        return "("+getX()+","+getY()+")";
 
     }
 }
