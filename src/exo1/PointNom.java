@@ -35,9 +35,9 @@ public class PointNom extends Point
         y+=dy;
     }
 
-    public void affichercoord()
+    public String affichercoord()
     {
-        System.out.println("le point : "+getName()+" ces cordonner sont : ("+getx()+","+gety()+")");
+        System.out.println("le point : "+getName()+" ces cordonner sont : "+affichercoord());
 
     }
 
